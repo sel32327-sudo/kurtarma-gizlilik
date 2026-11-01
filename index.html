@@ -1,27 +1,74 @@
 <!doctype html>
 <html lang="tr">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Gizlilik Politikası | Kurtarma Operasyonu</title>
-<style>body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.65;max-width:760px;margin:30px auto;padding:0 20px;color:#18243a}h1,h2{line-height:1.25}h1{color:#073b75}a{color:#0758b1}.note{color:#526078}footer{border-top:1px solid #ddd;margin-top:32px;padding-top:18px}</style>
-</head><body>
-<h1>Kurtarma Operasyonu — Gizlilik Politikası</h1>
-<p class="note">Son güncelleme: 30 Ekim 2026</p>
-<p>Bu gizlilik politikası, SelLABS geliştirici adıyla sunulan Kurtarma Operasyonu adlı Android bulmaca oyunu için geçerlidir.</p>
-<h2>1. Oyun verileri</h2>
-<p>Oyun kullanıcı hesabı oluşturmayı veya giriş yapmayı gerektirmez. Bölüm ilerlemesi, oyun ayarları ve benzeri tercihler cihaz üzerinde yerel olarak saklanabilir. Bu bilgiler, oyunun çalışmasını ve ilerlemenin korunmasını sağlamak için kullanılır. Uygulamanın mevcut sürümünde bu ilerleme bilgilerinin geliştiriciye ait bir sunucuya gönderilmesi amaçlanmamıştır.</p>
-<h2>2. Reklamlar ve üçüncü taraf hizmeti</h2>
-<p>Uygulamada Google AdMob (Google Mobile Ads SDK) ile banner ve isteğe bağlı ödüllü reklamlar sunulabilir. Google bu hizmet için IP adresi (yaklaşık konum tahmini amacıyla kullanılabilir), uygulama içi etkileşimler (örneğin reklam görüntüleme ve dokunmalar), tanılama/performans bilgileri ve cihaz veya reklam tanımlayıcıları gibi verileri otomatik olarak toplayabilir ve işleyebilir. Bu veriler reklam gösterimi, ölçüm, analiz ve sahtekârlığı önleme amaçlarıyla kullanılabilir ve Google tarafından işlenir.</p>
-<p>Google'ın veri işleme ve gizlilik uygulamaları hakkında: <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a> ve <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads veri açıklamaları</a>.</p>
-<h2>3. Veri paylaşımı ve güvenlik</h2>
-<p>Reklam SDK'sı aracılığıyla işlenen bilgiler Google ile paylaşılabilir. Google Mobile Ads SDK'sı ile iletilen veriler aktarım sırasında şifrelenir. Geliştirici tarafından ayrıca kullanıcı hesabı veya kişisel profil veri tabanı işletilmemektedir.</p>
-<h2>4. Saklama ve silme</h2>
-<p>Cihazda saklanan oyun ilerlemesi ve tercihler, uygulama verilerinin temizlenmesi veya uygulamanın kaldırılması yoluyla silinebilir; cihaz yedekleme ayarları bu davranışı etkileyebilir. Google tarafından işlenen reklam verilerinin saklama ve silme uygulamaları Google'ın kendi politikalarına tabidir. Kullanıcılar Android gizlilik ve reklam ayarları üzerinden bazı reklam tanımlayıcılarını yönetebilir.</p>
-<h2>5. Çocuklar ve gizlilik tercihleri</h2>
-<p>Reklamların kişiselleştirilmesi ve gerekli kullanıcı onayları yürürlükteki mevzuata ve Google politikalarına göre yönetilir. Uygulamanın hedef kitlesi ve reklam yapılandırması Google Play ve AdMob'da belirtilen ayarlara uygun tutulur.</p>
-<h2>6. Politika güncellemeleri</h2>
-<p>Uygulamanın işlevleri veya kullanılan hizmetler değişirse bu politika güncellenebilir. Güncel metin bu sayfada yayımlanır.</p>
-<h2>7. İletişim</h2>
-<p>Gizlilikle ilgili sorular için: <a href="mailto:selxzuhtu@gmail.com">selxzuhtu@gmail.com</a></p>
-<footer>SelLABS · Kurtarma Operasyonu</footer>
-</body></html>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kurtarma Operasyonu Android oyununun gizlilik politikası.">
+  <meta name="robots" content="index, follow">
+  <title>Gizlilik Politikası | Kurtarma Operasyonu — SelNOVA</title>
+  <style>
+    :root{color-scheme:light;--ink:#172b45;--muted:#54647a;--blue:#0870d5;--line:#dce6f1}
+    *{box-sizing:border-box}
+    body{margin:0;background:#f4f8fd;color:var(--ink);font:16px/1.7 system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+    main{max-width:850px;margin:36px auto;padding:36px 40px;background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 10px 32px #0927470d}
+    h1{font-size:clamp(26px,4vw,36px);line-height:1.2;margin:8px 0 10px}
+    h2{font-size:20px;margin:30px 0 8px;line-height:1.35}
+    p{margin:8px 0 13px}
+    ul{padding-left:23px;margin:8px 0 16px}
+    li{margin:6px 0}
+    a{color:#075eaf;text-underline-offset:3px}
+    .eyebrow{font-size:13px;letter-spacing:.09em;font-weight:800;color:#075bb0;text-transform:uppercase}
+    .meta{color:var(--muted);font-size:14px}
+    .intro{font-size:17px}
+    footer{border-top:1px solid var(--line);margin-top:32px;padding-top:19px;color:var(--muted);font-size:14px}
+    @media(max-width:650px){body{background:#fff}main{border:none;box-shadow:none;margin:0;padding:24px 20px;border-radius:0}}
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">SelNOVA · Android oyunu</div>
+  <h1>Kurtarma Operasyonu — Gizlilik Politikası</h1>
+  <p class="meta"><strong>Son güncelleme:</strong> 1 Kasım 2026 · <strong>Uygulama paket adı:</strong> com.SelNOVA.KurtarmaOperasyon</p>
+  <p class="intro">Bu gizlilik politikası, SelNOVA tarafından sunulan <strong>Kurtarma Operasyonu</strong> adlı mobil bulmaca oyununun kullanıcı verilerini nasıl işlediğini açıklamaktadır.</p>
+
+  <h2>1. Doğrudan toplanan bilgiler ve oyun ilerlemesi</h2>
+  <p>Oyun, hesap oluşturmayı veya giriş yapmayı gerektirmez. Oyunun mevcut işleyişinde oyuncudan ad, soyad, telefon numarası veya e-posta adresi istenmez; geliştirici bu bilgilerle bir oyuncu profili oluşturmaz.</p>
+  <p>Oyun ilerlemesi ve tercihler cihaz üzerinde, uygulamanın yerel depolama alanında saklanabilir. Bu verilere tamamlanan ve açılan bölümler, yıldız/başarı bilgileri, ses ve görünüm tercihleri ile reklam aralığına ilişkin sayaç örnek verilebilir. Bu yerel oyun kayıtlarının geliştiriciye ait bir oyun sunucusuna aktarılması mevcut sürümün parçası değildir.</p>
+
+  <h2>2. Reklamlar ve Google AdMob</h2>
+  <p>Uygulamada <strong>Google AdMob / Google Mobile Ads SDK</strong> bulunmaktadır. Sürüme ve ayarlara göre alt bant (banner), bölüm geçişlerinde tam ekran ve oyuncunun isteğiyle başlatılan ödüllü reklamlar gösterilebilir. Geliştirme ve test sürümlerinde Google tarafından sağlanan örnek test reklamları kullanılabilir.</p>
+  <p>Google Mobile Ads SDK, reklam sunumu, ölçüm, analiz, güvenlik ve sahtekârlığı önleme amaçlarıyla aşağıdaki verileri otomatik olarak toplayabilir ve Google ile paylaşabilir:</p>
+  <ul>
+    <li>Cihazın IP adresi (yaklaşık konumu tahmin etmek için kullanılabilir).</li>
+    <li>Reklam ve uygulama etkileşimleri (ör. uygulama açılması, dokunmalar, video görüntülemeleri).</li>
+    <li>Uygulama/SDK performans ve tanılama bilgileri.</li>
+    <li>Android reklam kimliği, uygulama grubu kimliği ve ilgili cihaz tanımlayıcıları (uygulanabildiği ölçüde).</li>
+  </ul>
+  <p>Bu verilerin işlenmesi, Google'ın hizmetleri ve gizlilik uygulamalarına tabidir. Daha fazla bilgi: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Gizlilik Politikası</a> ve <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">Google Mobile Ads veri açıklamaları</a>.</p>
+
+  <h2>3. Verilerin kullanım amaçları ve paylaşılması</h2>
+  <p>Cihazda saklanan oyun verileri; bölüm ilerlemesini hatırlamak, oyun tercihlerini korumak ve oyun deneyimini sürdürmek amacıyla kullanılır. Reklam teknolojisi kapsamında işlenen veriler ise Google tarafından reklam gösterimi, ölçümü, performans takibi ve kötüye kullanımı önleme amacıyla kullanılabilir. Geliştirici, mevcut sürümde oyun ilerlemesine ilişkin ayrı bir kişisel veri sunucusu işletmemektedir.</p>
+
+  <h2>4. Gizlilik tercihleri ve izinler</h2>
+  <p>Reklam kişiselleştirmesi ve gerekli onaylar, kullanıcının bölgesi ve uygulamanın ilgili sürümündeki reklam yapılandırmasına göre değişebilir. Kullanıcılar Android cihaz ayarlarından reklam kimliğiyle ilgili tercihlerini yönetebilir; Google reklam tercihleri için <a href="https://myadcenter.google.com/" target="_blank" rel="noopener noreferrer">Google Reklam Merkezim</a> sayfasını ziyaret edebilir.</p>
+  <p>Oyunun temel bulmaca işlevleri, kullanıcı hesabı veya cihazın hassas konum iznini gerektirmez. İnternet ve ağ durumu erişimi reklam hizmetlerinin çalışması için kullanılabilir.</p>
+
+  <h2>5. Veri güvenliği</h2>
+  <p>Yerel oyun kayıtları cihazın uygulama depolama alanında tutulur. Google Mobile Ads SDK'nın gönderdiği veriler, Google'ın açıklamasına göre aktarım sırasında TLS ile şifrelenir. Bununla birlikte internet üzerinden hiçbir veri aktarımının tamamen risksiz olduğu garanti edilemez.</p>
+
+  <h2>6. Verilerin saklanması ve silinmesi</h2>
+  <p>Yerel ilerleme ve tercih verileri, kullanıcı uygulama verilerini temizleyene veya uygulamayı kaldırana kadar cihazda kalabilir; Android'in cihaz yedekleme/geri yükleme özellikleri saklama davranışını etkileyebilir. Google tarafından işlenen reklam verilerinin saklanması ve silinmesi Google'ın kendi politikaları ve kullanıcı kontrolleri kapsamında yönetilir.</p>
+  <p>Uygulamada hesap oluşturulmadığından ayrıca bir oyuncu hesabını silme işlemi bulunmamaktadır. Gizlilikle ilgili veri talepleri için aşağıdaki iletişim adresi kullanılabilir.</p>
+
+  <h2>7. Çocukların gizliliği</h2>
+  <p>Oyun doğrudan çocuklardan ad, telefon veya e-posta gibi hesap bilgileri talep etmez. Çocukların uygulamayı kullanımı ve reklam gösterimleri bakımından geçerli Google Play ve AdMob hedef kitle kuralları ile ilgili mevzuat gözetilir. Hedef kitle ve reklam ayarları uygulamanın yayımlanan sürümüne uygun tutulmalıdır.</p>
+
+  <h2>8. Değişiklikler</h2>
+  <p>Oyunun özellikleri, üçüncü taraf hizmetleri veya yasal yükümlülükler değişirse bu gizlilik politikası güncellenebilir. Güncel metin bu sayfada yayımlanır.</p>
+
+  <h2>9. İletişim</h2>
+  <p>Gizlilikle ilgili soru veya talepler için: <a href="mailto:selxzuhtu@gmail.com">selxzuhtu@gmail.com</a></p>
+  <footer>© 2026 SelNOVA · Kurtarma Operasyonu · Gizlilik Politikası</footer>
+</main>
+</body>
+</html>
